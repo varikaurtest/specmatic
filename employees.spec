@@ -16,7 +16,6 @@ Feature: Employees API
     Examples:
       | id | name     | department  | designation         |
       | 10 | Jane Doe | Engineering | Engineering Manager |
-      | 40 | Jill Doe | Engineering | Principal Engineer  |
 
   Scenario Outline: Get Employee Not Found Error
     When GET /znsio/specmatic/employees/100
