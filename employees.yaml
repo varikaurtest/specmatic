@@ -4,7 +4,7 @@ info:
   version: '1.0'
 servers: []
 paths:
-  '/employees':
+  '/znsio/specmatic/employees':
     post:
       summary: ''
       requestBody:
@@ -15,7 +15,7 @@ paths:
             examples:
               CREATE_EMPLOYEE_SUCCESS:
                 value:
-                  id: 3002
+                  id: 70
                   name: Jill Doe
                   department: Engineering
                   designation: Director
@@ -29,11 +29,11 @@ paths:
               examples:
                 CREATE_EMPLOYEE_SUCCESS:
                   value:
-                    id: 3002
+                    id: 70
                     name: Jill Doe
                     department: Engineering
                     designation: Director
-  '/employees/{id}':
+  '/znsio/specmatic/employees/{id}':
     parameters:
       - schema:
           type: number
